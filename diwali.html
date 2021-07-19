@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>Happy Holi</title>
+<style type="text/css">
+#fromtext{
+ position:absolute;
+ top:334px;
+ left:568px;
+color:#fff;
+animation:anim 5s infinite; 
+}
+@keyframes anim{
+	0%{color:red;}
+	25%{color:blue; transform:scale(1.5);}
+	50%{color:green; transform:scale(0.8);}
+	75%{color:yellow; transform:scale(1.5);}
+	100%{color:pink; transform:scale(1);}
+}
+
+#myname{
+	position: absolute;
+	color: #fff;
+	animation: anim 5s infinite;
+}
+
+	#back{
+		background-image: url(images/md2.jpg);
+
+		
+	}
+
+
+</style>
+</head>
+<body id="back">
+	<h1 id="myname">Vishwajeet kumar</h1>
+<h1 id="fromtext">May this beautiful occasion of gives you all the reasons to make your life even more beautiful.Wishing you Happy Eid Day..<span id="result"></span></h1>
+<script type="text/javascript">
+	document.getElementById("result").innerHTML=localStorage.getItem("textVal");
+</script>
+</body>
+</html>

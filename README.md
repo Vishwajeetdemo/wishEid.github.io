@@ -1,1 +1,1 @@
-# wishEid.github.io
+# HoliWish
